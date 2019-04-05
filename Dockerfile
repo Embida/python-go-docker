@@ -1,4 +1,4 @@
-FROM buildpack-deps:stretch-scm
+FROM buildpack-deps:stretch
 
 # ensure local python is preferred over distribution python
 ENV PATH /usr/local/bin:$PATH
